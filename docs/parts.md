@@ -5,7 +5,7 @@
 ![Printable](https://raw.githubusercontent.com/Stopka/gimbal/master/graphics/printed_parts.png)
 
 1. **Handle**  
-You hold this part in hand when shooting. It has cavity for mounting battery at the bottom and Handle bridge at the top. At the top side of the handle there is yaw motor mounted.
+You hold this part in hand when shooting. It has cavity for mounting battery at the bottom and Handle bridge at the top. At the top side of the handle there is yaw motor mounted. At the bottom there is a gopro compatible mount.
 
 2. **Handle bridge**
 It is mounted in handle cavity. It's there to hold controller board from one side and joystick board from other side.
