@@ -1,43 +1,29 @@
-include <BOLTS.scad>
+//include <BOLTS.scad>
 //include <roof.scad>
-include <../common/motor.scad>
+include <../../common/motor.scad>
 
 backpack_size=10;
+mount_wall = 2;
+pitch_h= bolt_head_h + bolt_tail_h;
 
-h= bolt_head_h + bolt_tail_h;
 module gopro3_mock(){
-  import("gopro3back.stl", convexity=3);
-}
-
-module motor_mock(){
-  //color("blue")
-  difference(){
-    cylinder(r=motor_d/2,h=motor_h);
-    bolt_count=4;
-    for(i=[0:bolt_count-1]){
-      rotate([0,0,i*360/bolt_count])
-      translate([0,bolt_center_dist,-e]){
-        cylinder(r=bolt_tail_d/2+s, h=motor_h+2*e);
-      }
-    }
-  }
+  import("./gopro3back.stl", convexity=3);
 }
 
 module motor_mount(){
   difference(){
-    cylinder(r=motor_d/2,h=h);
-    translate([0,0,h-motor_axis_h+s])
+    cylinder(r=motor_d/2,h=pitch_h);
+    translate([0,0,pitch_h-motor_axis_h+s])
     cylinder(r=motor_axis_d/2+s,h=motor_axis_h+s+e);
     bolt_holes();
   }
 }
 
-mount_wall = 2;
 
 
 
 module case(){
-  path = "../../vendor/Brushless_Gimbal_model/files/GimbalGP3Case.fixed.stl";
+  path = "./../../../vendor/Brushless_Gimbal_model/files/GimbalGP3Case.fixed.stl";
   difference(){
     translate([backpack_size/2+0.1,0.001,0.001])
     import(path, convexity=3);
@@ -74,7 +60,7 @@ module left_position(){
 
 module left(){
   left_position(){
-    translate([0,0,h])
+    translate([0,0,pitch_h])
     %motor_mock();
     motor_mount();
   }
@@ -106,7 +92,7 @@ module axis_hole(){
     cylinder(r=motor_holow_d/2+e, h=10);
     
     translate([-8,-e-10,-motor_holow_d*3/2])
-    #cube([8,e,motor_holow_d*3]);
+    cube([8,e,motor_holow_d*3]);
   }
 }
 
@@ -131,36 +117,37 @@ module display(){
   cube([45,20, 33],center=true);
 }
 
-difference(){
-  union(){
-    left();
-    imu_mount();
-      
-    hull(){
-      intersection(){
-        right();
-        translate([-1.5,0,00])
-        cube([10,100,100],center=true);
+module pitch(){
+  difference(){
+    union(){
+      left();
+      imu_mount();
+        
+      hull(){
+        intersection(){
+          right();
+          translate([-1.5,0,00])
+          cube([10,100,100],center=true);
+        }
+        intersection(){
+          left();
+          translate([-4.5,0,00])
+          cube([10,100,100],center=true);
+        }
       }
-      intersection(){
-        left();
-        translate([-4.5,0,00])
-        cube([10,100,100],center=true);
-      }
+       
+      right();
     }
-     
-    right();
-  }
-  left_position()
-  bolt_holes(10);
-  usb_hole();
-  axis_hole();
-  translate([0,-6,0])
-  display();
-  translate([0,0,3.1])
-  imu_translate(){
-    imu_hole(true);
-    imu_hole(false);
+    left_position()
+    bolt_holes(10);
+    usb_hole();
+    axis_hole();
+    translate([0,-6,0])
+    display();
+    translate([0,0,3.1])
+    imu_translate(){
+      imu_hole(true);
+      imu_hole(false);
+    }
   }
 }
- 

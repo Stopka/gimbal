@@ -1,6 +1,6 @@
 //include <BOLTS.scad>
 //include <roof.scad>
-module zip(){
+module zip(h){
   zip_d=4;
   zip_w=8;
   zip_h=3.5;

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="115.485mm"
+   height="64.515999mm"
+   viewBox="0 0 115.485 64.516"
+   version="1.1"
+   id="svg8"
+   inkscape:export-filename="/home/stopka/Veřejné/data/Pictures/openscad/gimbal/graphics/printed_parts.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="printed_parts.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath860">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g856"
+         id="use862"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath860-5">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g856-6"
+         id="use862-3"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath860-5-2">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g856-6-9"
+         id="use862-3-7"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath860-5-6">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g856-6-1"
+         id="use862-3-2"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath860-5-20">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g856-6-5"
+         id="use862-3-23"
+         width="100%"
+         height="100%" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.2277344"
+     inkscape:cx="27.44193"
+     inkscape:cy="-18.216434"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1054"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-63.987293,43.430477)">
+    <image
+       sodipodi:absref="/home/stopka/Veřejné/data/Pictures/openscad/gimbal/graphics/render.png"
+       xlink:href="render.png"
+       style="stroke-width:1.00000143"
+       width="115.485"
+       height="64.515999"
+       preserveAspectRatio="none"
+       id="image999"
+       x="63.987293"
+       y="-43.430477" />
+    <g
+       id="g858"
+       clip-path="url(#clipPath860)"
+       transform="translate(68.48588,-39.448705)">
+      <g
+         inkscape:label="Clip"
+         id="g856">
+        <ellipse
+           ry="2.3131654"
+           rx="2.1914198"
+           cy="51.926205"
+           cx="30.679876"
+           id="path830"
+           style="opacity:1;fill:#0300ff;fill-opacity:1;stroke:none;stroke-width:0.18520832;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           id="text828"
+           y="53.237408"
+           x="29.730579"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:13.22916603px;line-height:6.61458302px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88055563px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px"
+             y="53.237408"
+             x="29.730579"
+             id="tspan826"
+             sodipodi:role="line">1</tspan></text>
+      </g>
+    </g>
+    <g
+       transform="translate(68.851119,-57.101807)"
+       id="g858-5"
+       clip-path="url(#clipPath860-5)">
+      <g
+         inkscape:label="Clip"
+         id="g856-6">
+        <ellipse
+           ry="2.3131654"
+           rx="2.1914198"
+           cy="51.926205"
+           cx="30.679876"
+           id="path830-2"
+           style="opacity:1;fill:#0300ff;fill-opacity:1;stroke:none;stroke-width:0.18520832;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           id="text828-9"
+           y="53.237408"
+           x="29.730579"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:13.22916603px;line-height:6.61458302px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88055563px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px"
+             y="53.237408"
+             x="29.730579"
+             id="tspan826-1"
+             sodipodi:role="line">2</tspan></text>
+      </g>
+    </g>
+    <g
+       transform="translate(68.851119,-69.276362)"
+       id="g858-5-0"
+       clip-path="url(#clipPath860-5-2)">
+      <g
+         inkscape:label="Clip"
+         id="g856-6-9">
+        <ellipse
+           ry="2.3131654"
+           rx="2.1914198"
+           cy="51.926205"
+           cx="30.679876"
+           id="path830-2-3"
+           style="opacity:1;fill:#0300ff;fill-opacity:1;stroke:none;stroke-width:0.18520832;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           id="text828-9-6"
+           y="53.237408"
+           x="29.730579"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:13.22916603px;line-height:6.61458302px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88055563px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px"
+             y="53.237408"
+             x="29.730579"
+             id="tspan826-1-0"
+             sodipodi:role="line">3</tspan></text>
+      </g>
+    </g>
+    <g
+       transform="translate(112.67952,-83.885828)"
+       id="g858-5-6"
+       clip-path="url(#clipPath860-5-6)">
+      <g
+         inkscape:label="Clip"
+         id="g856-6-1">
+        <ellipse
+           ry="2.3131654"
+           rx="2.1914198"
+           cy="51.926205"
+           cx="30.679876"
+           id="path830-2-8"
+           style="opacity:1;fill:#0300ff;fill-opacity:1;stroke:none;stroke-width:0.18520832;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           id="text828-9-7"
+           y="53.237408"
+           x="29.730579"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:13.22916603px;line-height:6.61458302px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88055563px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px"
+             y="53.237408"
+             x="29.730579"
+             id="tspan826-1-9"
+             sodipodi:role="line">4</tspan></text>
+      </g>
+    </g>
+    <g
+       transform="translate(112.43603,-74.389675)"
+       id="g858-5-7"
+       clip-path="url(#clipPath860-5-20)">
+      <g
+         inkscape:label="Clip"
+         id="g856-6-5">
+        <ellipse
+           ry="2.3131654"
+           rx="2.1914198"
+           cy="51.926205"
+           cx="30.679876"
+           id="path830-2-9"
+           style="opacity:1;fill:#0300ff;fill-opacity:1;stroke:none;stroke-width:0.18520832;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           id="text828-9-2"
+           y="53.237408"
+           x="29.730579"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:13.22916603px;line-height:6.61458302px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.88055563px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px"
+             y="53.237408"
+             x="29.730579"
+             id="tspan826-1-2"
+             sodipodi:role="line">5</tspan></text>
+      </g>
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#0300ff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 100.8138,12.596807 16.38142,0.228578"
+       id="path970"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#0300ff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 101.04238,-5.0798861 16.91476,1.600044"
+       id="path972"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#0300ff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 100.8138,-17.118326 11.3527,-0.304771"
+       id="path974"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#0300ff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 141.88164,-32.509241 -8.22881,0.838119"
+       id="path976"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#0300ff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 141.72925,-22.147041 -14.4766,-1.600045"
+       id="path978"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
