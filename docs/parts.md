@@ -2,15 +2,25 @@
 
 ## Printable
 
-1. Handle
-2. Handle bridge
-3. Yaw
-4. Roll
-5. Pitch
+![Printable](https://raw.githubusercontent.com/Stopka/gimbal/master/graphics/printed_parts.png)
 
+1. **Handle**  
+You hold this part in hand when shooting. It has cavity for mounting battery at the bottom and Handle bridge at the top. At the top side of the handle there is yaw motor mounted.
+
+2. **Handle bridge**
+It is mounted in handle cavity. It's there to hold controller board from one side and joystick board from other side.
+
+3. **Yaw**  
+Bottom end mounts to yaw motor, top/back end mounts to roll motor. On the right side edge there are small holes for mounting cables to the frame using zip ties..
+
+4. **Roll**  
+Left/back end mounts to roll motor, right/front end mounts to pitch motor. At the top side edge there are small holes for mounting cables to the frame using zip ties. From left side edge there are holes for weight balance screws.
+   
+5. **Pitch**  
+At the right side it mounts to pitch motor. Above motor there is a spot for mounting IMU sensor board. Left side consists of cage for mounting camera. Camera is mounted to the cage by sliding it in from top.
 ## Nonprintable
 
-* Controller set  
+* Controller set (Controlloer board and IMU sensor board)  
   [SimpleBGC 32bit Tiny I2C 2-IMU Set, Revision B](https://shop.basecamelectronics.com/product/simplebgc-32bit-tiny-i2c-2-imu-set/)
 * Battery  
   [LiPol Gens b-25c-1300-3s1p](https://www.gensace.de/gens-ace-1300mah-11-1v-25c-3s1p-lipo-battery-pack.html)
@@ -32,7 +42,7 @@
 * Mounting screws
   * Motor: M3x10 (24×)
   * Bridge: M2x10 self tapping (4×)
-  * Joystick & controller: M3x10 self tapping (4×)
+  * Joystick, controller & IMU: M3x10 self tapping (6×)
 * Weight balance
   * Screws M5x50 (2×)
   * Pads D5 (cca 20×)
